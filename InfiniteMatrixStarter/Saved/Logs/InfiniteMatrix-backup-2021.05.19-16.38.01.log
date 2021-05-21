@@ -1,0 +1,1725 @@
+﻿Log file open, 05/20/21 00:24:16
+LogInit: Display: Running engine for game: InfiniteMatrix
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 26 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.149399
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = true  - Libcurl will use HTTP proxy
+LogInit:  - HttpProxyAddress = '127.0.0.1:1080'
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i7-9700F CPU @ 3.00GHz, GPU: NVIDIA GeForce RTX 2060 SUPER
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.05.19-16.24.16:939][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.05.19-16.24.16:939][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.05.19-16.24.16:939][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/Config/Windows/Engine.ini]
+[2021.05.19-16.24.16:939][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.05.19-16.24.16:939][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/Config/Windows/Engine.ini]
+[2021.05.19-16.24.16:939][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/Config/Windows/Engine.ini]
+[2021.05.19-16.24.16:939][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.05.19-16.24.16:939][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.05.19-16.24.16:939][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.05.19-16.24.16:939][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.05.19-16.24.16:939][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.05.19-16.24.16:939][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.05.19-16.24.16:939][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.05.19-16.24.16:939][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.05.19-16.24.16:939][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.05.19-16.24.16:939][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.05.19-16.24.16:939][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.05.19-16.24.16:939][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.05.19-16.24.16:939][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.05.19-16.24.16:939][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.05.19-16.24.16:939][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/Config/Windows/Engine.ini]
+[2021.05.19-16.24.16:939][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.05.19-16.24.16:939][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.05.19-16.24.16:939][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.05.19-16.24.16:939][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.05.19-16.24.16:939][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.05.19-16.24.16:939][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.05.19-16.24.16:939][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.05.19-16.24.16:939][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.05.19-16.24.16:939][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.05.19-16.24.16:939][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.05.19-16.24.16:939][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.05.19-16.24.16:939][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.05.19-16.24.16:939][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.05.19-16.24.16:939][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/Config/Windows/Engine.ini]
+[2021.05.19-16.24.16:939][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/Config/Windows/Engine.ini]
+[2021.05.19-16.24.16:941][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/Config/Windows/Scalability.ini]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/Config/Windows/Scalability.ini]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/Config/Windows/Scalability.ini]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/Config/Windows/Scalability.ini]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/Config/Windows/Scalability.ini]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.05.19-16.24.16:941][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/Config/Windows/Scalability.ini]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/Config/Windows/Scalability.ini]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/Config/Windows/Scalability.ini]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.05.19-16.24.16:942][  0]LogInit: Selected Device Profile: [Windows]
+[2021.05.19-16.24.16:942][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.05.19-16.24.16:942][  0]LogHAL: Display: Platform has ~ 32 GB [34299363328 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.05.19-16.24.16:942][  0]LogInit: Going up to parent DeviceProfile []
+[2021.05.19-16.24.16:942][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/Config/Windows/Scalability.ini]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/Config/Windows/Scalability.ini]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/Config/Windows/Scalability.ini]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/Config/Windows/Scalability.ini]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.05.19-16.24.16:942][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/Config/Windows/Scalability.ini]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/Config/Windows/Scalability.ini]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/Config/Windows/Scalability.ini]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/Config/Windows/Scalability.ini]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.05.19-16.24.16:943][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/Config/Windows/Engine.ini]
+[2021.05.19-16.24.16:943][  0]LogInit: Computer: DESKTOP-UODJMNG
+[2021.05.19-16.24.16:944][  0]LogInit: User: AORUS
+[2021.05.19-16.24.16:944][  0]LogInit: CPU Page size=4096, Cores=8
+[2021.05.19-16.24.16:944][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.05.19-16.24.16:944][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2021.05.19-16.24.16:944][  0]LogMemory: Platform Memory Stats for Windows
+[2021.05.19-16.24.16:944][  0]LogMemory: Process Physical Memory: 116.86 MB used, 116.86 MB peak
+[2021.05.19-16.24.16:944][  0]LogMemory: Process Virtual Memory: 96.86 MB used, 96.86 MB peak
+[2021.05.19-16.24.16:944][  0]LogMemory: Physical Memory: 7557.31 MB used,  25153.11 MB free, 32710.42 MB total
+[2021.05.19-16.24.16:944][  0]LogMemory: Virtual Memory: 5168.87 MB used,  134212560.00 MB free, 134217728.00 MB total
+[2021.05.19-16.24.16:948][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.05.19-16.24.16:982][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.05.19-16.24.16:982][  0]LogInit: Using OS detected language (zh-CN).
+[2021.05.19-16.24.16:982][  0]LogInit: Using OS detected locale (zh-CN).
+[2021.05.19-16.24.16:984][  0]LogTextLocalizationManager: No specific localization for 'zh-CN' exists, so the 'zh-Hans' localization will be used.
+[2021.05.19-16.24.17:061][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/zh/Editor.locres' could not be opened for reading!
+[2021.05.19-16.24.17:061][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/zh/EditorTutorials.locres' could not be opened for reading!
+[2021.05.19-16.24.17:062][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/zh/Keywords.locres' could not be opened for reading!
+[2021.05.19-16.24.17:062][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/zh/Category.locres' could not be opened for reading!
+[2021.05.19-16.24.17:062][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/zh/ToolTips.locres' could not be opened for reading!
+[2021.05.19-16.24.17:062][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/zh/PropertyNames.locres' could not be opened for reading!
+[2021.05.19-16.24.17:062][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/zh/Engine.locres' could not be opened for reading!
+[2021.05.19-16.24.17:062][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/Content/Localization/OnlineSubsystemGooglePlay/zh/OnlineSubsystemGooglePlay.locres' could not be opened for reading!
+[2021.05.19-16.24.17:062][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/IOS/OnlineSubsystemIOS/Content/Localization/OnlineSubsystemIOS/zh/OnlineSubsystemIOS.locres' could not be opened for reading!
+[2021.05.19-16.24.17:062][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystem/Content/Localization/OnlineSubsystem/zh/OnlineSubsystem.locres' could not be opened for reading!
+[2021.05.19-16.24.17:062][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystemUtils/Content/Localization/OnlineSubsystemUtils/zh/OnlineSubsystemUtils.locres' could not be opened for reading!
+[2021.05.19-16.24.17:107][  0]LogInit: Setting process to per monitor DPI aware
+[2021.05.19-16.24.17:130][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.05.19-16.24.17:130][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.05.19-16.24.17:235][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.05.19-16.24.17:235][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.05.19-16.24.17:235][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.05.19-16.24.17:235][  0]LogD3D11RHI: D3D11 adapters:
+[2021.05.19-16.24.17:314][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060 SUPER' (Feature Level 11_0)
+[2021.05.19-16.24.17:315][  0]LogD3D11RHI:       8031/0/16355 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.05.19-16.24.17:317][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.05.19-16.24.17:317][  0]LogD3D11RHI:       0/0/16355 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.05.19-16.24.17:317][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.05.19-16.24.17:321][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.05.19-16.24.17:321][  0]LogD3D11RHI:     GPU DeviceId: 0x1f06 (for the marketing name, search the web for "GPU Device Id")
+[2021.05.19-16.24.17:321][  0]LogWindows: EnumDisplayDevices:
+[2021.05.19-16.24.17:321][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2060 SUPER' (P:1 D:1)
+[2021.05.19-16.24.17:321][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2060 SUPER' (P:0 D:0)
+[2021.05.19-16.24.17:321][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2060 SUPER' (P:0 D:0)
+[2021.05.19-16.24.17:321][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060 SUPER' (P:0 D:0)
+[2021.05.19-16.24.17:321][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.05.19-16.24.17:322][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060 SUPER
+[2021.05.19-16.24.17:322][  0]LogD3D11RHI:   Driver Version: 466.11 (internal:27.21.14.6611, unified:466.11)
+[2021.05.19-16.24.17:322][  0]LogD3D11RHI:      Driver Date: 4-12-2021
+[2021.05.19-16.24.17:322][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
+[2021.05.19-16.24.17:399][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.05.19-16.24.17:399][  0]LogD3D11RHI: Async texture creation enabled
+[2021.05.19-16.24.17:399][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.05.19-16.24.17:430][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2021.05.19-16.24.17:648][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.05.19-16.24.17:667][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.05.19-16.24.17:667][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.05.19-16.24.17:667][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.05.19-16.24.17:667][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.05.19-16.24.17:667][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.05.19-16.24.17:667][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.05.19-16.24.17:667][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.05.19-16.24.17:667][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.05.19-16.24.17:667][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.05.19-16.24.17:667][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.05.19-16.24.17:688][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.05.19-16.24.17:688][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.05.19-16.24.17:698][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.05.19-16.24.17:705][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.05.19-16.24.17:714][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.05.19-16.24.17:722][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.05.19-16.24.17:731][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.05.19-16.24.17:740][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.05.19-16.24.17:749][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.05.19-16.24.17:776][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.05.19-16.24.17:776][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.05.19-16.24.17:790][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.05.19-16.24.17:790][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.05.19-16.24.17:800][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.05.19-16.24.17:810][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.05.19-16.24.17:818][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.05.19-16.24.17:826][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.05.19-16.24.17:826][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.05.19-16.24.17:832][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.05.19-16.24.17:881][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (D:/Tencent/BananaProject/InfiniteMatrixStarter/Intermediate/Shaders/WorkingDirectory/11392/).
+[2021.05.19-16.24.17:881][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/AORUS/AppData/Local/Temp/UnrealShaderWorkingDir/E5A7D31D44A3F3D2E3954CA77869FE13/'.
+[2021.05.19-16.24.17:881][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.05.19-16.24.17:881][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.05.19-16.24.17:881][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.05.19-16.24.18:518][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.05.19-16.24.18:561][  0]LogDerivedDataCache: Loaded boot cache 0.04s 75MB C:/Users/AORUS/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.05.19-16.24.18:561][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/AORUS/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.05.19-16.24.18:561][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Tencent/BananaProject/InfiniteMatrixStarter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.05.19-16.24.18:561][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.05.19-16.24.18:561][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Tencent/BananaProject/InfiniteMatrixStarter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.05.19-16.24.18:561][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.05.19-16.24.18:569][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.05.19-16.24.18:569][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.05.19-16.24.18:569][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.05.19-16.24.18:570][  0]LogDerivedDataCache: Using Local data cache path C:/Users/AORUS/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.05.19-16.24.18:570][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.05.19-16.24.18:570][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.05.19-16.24.18:612][  0]LogSlate: Using FreeType 2.10.0
+[2021.05.19-16.24.18:613][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.05.19-16.24.18:635][  0]LogAssetRegistry: FAssetRegistry took 0.0024 seconds to start up
+[2021.05.19-16.24.18:814][  0]LogInit: Selected Device Profile: [Windows]
+[2021.05.19-16.24.18:910][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.05.19-16.24.18:910][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.05.19-16.24.18:910][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.05.19-16.24.18:910][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.05.19-16.24.18:910][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.05.19-16.24.18:921][  0]LogNetVersion: InfiniteMatrix 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2926519042)
+[2021.05.19-16.24.19:277][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001BA1E50C5C0), frame # 0
+[2021.05.19-16.24.19:277][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BA1E4611C0), frame # 0
+[2021.05.19-16.24.19:278][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BA1E4ADE00), frame # 0
+[2021.05.19-16.24.19:319][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 2 prioritized culture(s) in 0.036602 seconds
+[2021.05.19-16.24.19:322][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.05.19-16.24.19:322][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.05.19-16.24.19:322][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.05.19-16.24.19:569][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.05.19-16.24.19:572][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.05.19-16.24.19:634][  0]SourceControl: 源码管理已禁用
+[2021.05.19-16.24.19:634][  0]SourceControl: 源码管理已禁用
+[2021.05.19-16.24.19:636][  0]SourceControl: 源码管理已禁用
+[2021.05.19-16.24.19:638][  0]SourceControl: 源码管理已禁用
+[2021.05.19-16.24.19:643][  0]SourceControl: 源码管理已禁用
+[2021.05.19-16.24.19:840][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.05.19-16.24.19:855][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.05.19-16.24.19:855][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.05.19-16.24.19:893][  0]LogOcInput: OculusInput pre-init called
+[2021.05.19-16.24.19:903][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.05.19-16.24.19:903][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.05.19-16.24.19:948][  0]LogEngine: Initializing Engine...
+[2021.05.19-16.24.19:948][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.05.19-16.24.19:949][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.05.19-16.24.19:949][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.05.19-16.24.20:033][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.05.19-16.24.20:038][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.05.19-16.24.20:038][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BA25BD7C00), frame # 0
+[2021.05.19-16.24.20:038][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BA25C53100), frame # 0
+[2021.05.19-16.24.20:051][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.19-16.24.20:052][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.19-16.24.20:052][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.19-16.24.20:052][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.19-16.24.20:052][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.19-16.24.20:052][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.19-16.24.20:052][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.19-16.24.20:052][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.19-16.24.20:052][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.19-16.24.20:052][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.19-16.24.20:060][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.19-16.24.20:060][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.05.19-16.24.20:087][  0]LogAudioMixer: Display: Using Audio Device 扬声器 (Realtek(R) Audio)
+[2021.05.19-16.24.20:088][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.19-16.24.20:090][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.19-16.24.20:090][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.19-16.24.20:090][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.19-16.24.20:091][  0]LogInit: FAudioDevice initialized.
+[2021.05.19-16.24.20:091][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.05.19-16.24.20:177][  0]LogDerivedDataCache: Saved boot cache 0.09s 75MB C:/Users/AORUS/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.05.19-16.24.20:178][  0]LogInit: Texture streaming: Enabled
+[2021.05.19-16.24.20:189][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.05.19-16.24.20:190][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.05.19-16.24.20:190][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.05.19-16.24.20:214][  0]LogInit: Transaction tracking system initialized
+[2021.05.19-16.24.20:230][  0]BlueprintLog: New page: 编辑器加载
+[2021.05.19-16.24.20:279][  0]LocalizationService: 本地化服务已禁用
+[2021.05.19-16.24.20:388][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.05.19-16.24.20:388][  0]LogCook: Display: Mobile HDR setting 1
+[2021.05.19-16.24.20:420][  0]LogFileCache: Scanning file cache for directory 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/' took 0.00s
+[2021.05.19-16.24.20:686][  0]SourceControl: 源码管理已禁用
+[2021.05.19-16.24.20:686][  0]LogUnrealEdMisc: Loading editor; pre map load, took 4.831
+[2021.05.19-16.24.20:686][  0]Cmd: MAP LOAD FILE="D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Maps/TutorialMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.05.19-16.24.20:686][  0]LightingResults: New page: 光照构建
+[2021.05.19-16.24.20:687][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.05.19-16.24.20:687][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.19-16.24.20:687][  0]MapCheck: New page: 地图检测
+[2021.05.19-16.24.20:687][  0]LightingResults: New page: 光照构建
+[2021.05.19-16.24.20:695][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BA25BD7C00), frame # 0
+[2021.05.19-16.24.20:695][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BA25C53100), frame # 0
+[2021.05.19-16.24.20:696][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2021.05.19-16.24.20:737][  0]LogAIModule: Creating AISystem for world TutorialMap
+[2021.05.19-16.24.20:737][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BA1A005800), frame # 0
+[2021.05.19-16.24.20:737][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BA1EBE7D80), frame # 0
+[2021.05.19-16.24.20:740][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.05.19-16.24.20:749][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2021.05.19-16.24.20:749][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.05.19-16.24.20:749][  0]MapCheck: 地图检测完成：0个错误、0个警告、完成用时0.069毫秒。
+[2021.05.19-16.24.20:749][  0]LogFileHelpers: Loading map 'TutorialMap' took 0.063
+[2021.05.19-16.24.20:751][  0]LogUnrealEdMisc: Total Editor Startup Time, took 4.896
+[2021.05.19-16.24.20:818][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (微软拼音).
+[2021.05.19-16.24.20:868][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.19-16.24.20:873][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.19-16.24.20:878][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.19-16.24.20:883][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.19-16.24.20:888][  0]LogCollectionManager: Loaded 0 collections in 0.001087 seconds
+[2021.05.19-16.24.20:897][  0]LogFileCache: Scanning file cache for directory 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/Collections/' took 0.00s
+[2021.05.19-16.24.20:897][  0]LogFileCache: Scanning file cache for directory 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/Developers/AORUS/Collections/' took 0.00s
+[2021.05.19-16.24.20:897][  0]LogFileCache: Scanning file cache for directory 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/Collections/' took 0.00s
+[2021.05.19-16.24.20:897][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 3427 classes and 821 folders.
+[2021.05.19-16.24.20:899][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.05.19-16.24.20:935][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.05.19-16.24.20:937][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2021.05.19-16.24.21:011][  0]LogSlate: Took 0.000109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.05.19-16.24.21:013][  0]LogSlate: Took 0.001320 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2021.05.19-16.24.21:013][  0]LogSlate: Took 0.000089 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.05.19-16.24.21:015][  0]LogSlate: Took 0.000099 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.05.19-16.24.21:061][  0]LogRenderer: Reallocating scene render targets to support 1208x536 Format 10 NumSamples 1 (Frame:1).
+[2021.05.19-16.24.21:111][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.05.19-16.24.21:111][  0]LogLoad: (Engine Initialization) Total time: 5.26 seconds
+[2021.05.19-16.24.21:111][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.05.19-16.24.21:142][  0]LogAssetRegistry: Asset discovery search completed in 2.5086 seconds
+[2021.05.19-16.24.21:146][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000001 seconds (updated 0 objects)
+[2021.05.19-16.24.21:147][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.05.19-16.24.21:167][  0]LogSlate: Took 0.000110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.05.19-16.24.29:791][925]LogSlate: Took 0.000103 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.05.19-16.24.29:805][925]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/InfiniteMatrix/Blueprints/BP_Tunnel.BP_Tunnel
+[2021.05.19-16.24.29:968][925]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 125 classes and 0 folders.
+[2021.05.19-16.24.30:617][925]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.05.19-16.24.30:648][926]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.05.19-16.24.35:660][406]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2021.05.19-16.24.49:961][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteMatrix/Blueprints/BP_Tunnel" FILE="D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset" SILENT=true
+[2021.05.19-16.24.49:971][947]LogSavePackage: Moving 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/BP_Tunnel0876C5904A30F0C08D420E8165FC763F.tmp' to 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset'
+[2021.05.19-16.24.49:983][947]AssetCheck: New page: 资产保存：BP_Tunnel
+[2021.05.19-16.24.49:983][947]LogContentValidation: Display: 正在验证Blueprint /Game/InfiniteMatrix/Blueprints/BP_Tunnel.BP_Tunnel
+[2021.05.19-16.25.04:536][752]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'USceneComponent::K2_AddLocalRotation' [找不到元素。]
+[2021.05.19-16.25.09:092][100]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteMatrix/Blueprints/BP_Tunnel" FILE="D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset" SILENT=true
+[2021.05.19-16.25.09:103][100]LogSavePackage: Moving 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/BP_Tunnel2F61816748F2479CC093FE9A8217B57E.tmp' to 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset'
+[2021.05.19-16.25.09:113][100]AssetCheck: New page: 资产保存：BP_Tunnel
+[2021.05.19-16.25.09:113][100]LogContentValidation: Display: 正在验证Blueprint /Game/InfiniteMatrix/Blueprints/BP_Tunnel.BP_Tunnel
+[2021.05.19-16.25.15:021][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteMatrix/Blueprints/BP_Tunnel" FILE="D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset" SILENT=true
+[2021.05.19-16.25.15:028][421]LogSavePackage: Moving 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/BP_TunnelEB30873440802BCDF74E37970601461C.tmp' to 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset'
+[2021.05.19-16.25.15:040][421]AssetCheck: New page: 资产保存：BP_Tunnel
+[2021.05.19-16.25.15:040][421]LogContentValidation: Display: 正在验证Blueprint /Game/InfiniteMatrix/Blueprints/BP_Tunnel.BP_Tunnel
+[2021.05.19-16.25.24:350][342]BlueprintLog: New page: 编译BP_Tunnel
+[2021.05.19-16.25.24:354][342]LogClass: Warning: Type mismatch in RotationSpeed of BP_Tunnel_C - Previous (BoolProperty) Current(FloatProperty) for package:  FObjectReader
+[2021.05.19-16.25.24:380][342]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2021.05.19-16.25.24:425][342]LogSlate: Took 0.000093 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.05.19-16.25.27:160][639]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteMatrix/Blueprints/BP_Tunnel" FILE="D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset" SILENT=true
+[2021.05.19-16.25.27:170][639]LogSavePackage: Moving 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/BP_TunnelF342FE2045A89547612739BFCE6214B0.tmp' to 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset'
+[2021.05.19-16.25.27:180][639]AssetCheck: New page: 资产保存：BP_Tunnel
+[2021.05.19-16.25.27:180][639]LogContentValidation: Display: 正在验证Blueprint /Game/InfiniteMatrix/Blueprints/BP_Tunnel.BP_Tunnel
+[2021.05.19-16.25.31:432][891]LogTemp: Repeating last play command: 选中的视口
+[2021.05.19-16.25.31:439][891]BlueprintLog: New page: 运行前自动重新编译
+[2021.05.19-16.25.31:788][891]LogPlayLevel: [PlayLevel] Compiling BP_Tunnel before play...
+[2021.05.19-16.25.31:823][891]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2021.05.19-16.25.31:823][891]LogPlayLevel: PlayLevel: Blueprint regeneration took 384 ms (1 blueprints)
+[2021.05.19-16.25.31:824][891]PIE: New page: PIE会话：TutorialMap（2021年5月20日 上午8:25:31）
+[2021.05.19-16.25.31:825][891]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.05.19-16.25.31:825][891]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.05.19-16.25.31:825][891]LogPlayLevel: Creating play world package: /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2021.05.19-16.25.31:826][891]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001102s)
+[2021.05.19-16.25.31:827][891]LogAIModule: Creating AISystem for world TutorialMap
+[2021.05.19-16.25.31:827][891]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BA5AB3F600), frame # 5891
+[2021.05.19-16.25.31:827][891]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BA5B6A2200), frame # 5891
+[2021.05.19-16.25.31:827][891]LogPlayLevel: PIE: World Init took: (0.000748s)
+[2021.05.19-16.25.31:827][891]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteMatrix/Maps/TutorialMap.TutorialMap to /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.001933s)
+[2021.05.19-16.25.31:842][891]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2021.05.19-16.25.31:843][891]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.19-16.25.31:843][891]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.19-16.25.31:843][891]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.19-16.25.31:843][891]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.19-16.25.31:843][891]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.19-16.25.31:843][891]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.19-16.25.31:843][891]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.19-16.25.31:843][891]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.19-16.25.31:843][891]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.19-16.25.31:843][891]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.19-16.25.31:846][891]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.19-16.25.31:846][891]LogAudioMixer: Display: 1: FrontRight
+[2021.05.19-16.25.31:859][891]LogAudioMixer: Display: Using Audio Device 扬声器 (Realtek(R) Audio)
+[2021.05.19-16.25.31:860][891]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.19-16.25.31:860][891]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.19-16.25.31:860][891]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.19-16.25.31:860][891]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.19-16.25.31:871][891]LogInit: FAudioDevice initialized.
+[2021.05.19-16.25.31:877][891]LogLoad: Game class is 'GM_Tutorial_C'
+[2021.05.19-16.25.31:878][891]LogWorld: Bringing World /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 0) at 2021.05.20-00.25.31
+[2021.05.19-16.25.31:878][891]LogWorld: Bringing up level for play took: 0.000281
+[2021.05.19-16.25.31:878][891]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2021.05.19-16.25.31:889][891]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2021.05.19-16.25.31:891][891]PIE: 登陆的服务器
+[2021.05.19-16.25.31:892][891]PIE: PIE总开始时间：0.453秒。
+[2021.05.19-16.25.46:785][633]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.19-16.25.46:785][633]LogWorld: BeginTearingDown for /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2021.05.19-16.25.46:785][633]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.19-16.25.46:785][633]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.19-16.25.46:791][633]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.19-16.25.46:794][633]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.19-16.25.46:815][633]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.19-16.25.46:837][633]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BA5B6A2200), frame # 7633
+[2021.05.19-16.25.46:837][633]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BA5AB3F600), frame # 7633
+[2021.05.19-16.25.46:845][633]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2021.05.19-16.25.46:863][634]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2021.05.19-16.26.52:916][895]LogStaticMesh: 正在构建静态网格体SM_Hole_02……
+[2021.05.19-16.26.52:941][895]LogStaticMesh: Built static mesh [0.03s] /Game/InfiniteMatrix/Meshes/SM_Hole_02.SM_Hole_02
+[2021.05.19-16.27.04:038][860]LogStaticMesh: 正在构建静态网格体SM_Hole_04……
+[2021.05.19-16.27.04:060][860]LogStaticMesh: Built static mesh [0.02s] /Game/InfiniteMatrix/Meshes/SM_Hole_04.SM_Hole_04
+[2021.05.19-16.27.05:127][948]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteMatrix/Blueprints/BP_Tunnel" FILE="D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset" SILENT=true
+[2021.05.19-16.27.05:138][948]LogSavePackage: Moving 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/BP_Tunnel26609CBF48B5E1B12FA6ECA45D9716AE.tmp' to 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset'
+[2021.05.19-16.27.05:149][948]AssetCheck: New page: 资产保存：BP_Tunnel
+[2021.05.19-16.27.05:149][948]LogContentValidation: Display: 正在验证Blueprint /Game/InfiniteMatrix/Blueprints/BP_Tunnel.BP_Tunnel
+[2021.05.19-16.27.13:984][662]BlueprintLog: New page: 编译BP_Tunnel
+[2021.05.19-16.27.14:022][662]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2021.05.19-16.27.18:143][898]LogTemp: Repeating last play command: 选中的视口
+[2021.05.19-16.27.18:150][898]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.19-16.27.18:150][898]PIE: New page: PIE会话：TutorialMap（2021年5月20日 上午8:27:18）
+[2021.05.19-16.27.18:185][898]LogPlayLevel: Creating play world package: /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2021.05.19-16.27.18:186][898]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001080s)
+[2021.05.19-16.27.18:186][898]LogAIModule: Creating AISystem for world TutorialMap
+[2021.05.19-16.27.18:186][898]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BA8D0FCE00), frame # 14898
+[2021.05.19-16.27.18:186][898]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BA3CC52200), frame # 14898
+[2021.05.19-16.27.18:186][898]LogPlayLevel: PIE: World Init took: (0.000755s)
+[2021.05.19-16.27.18:186][898]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteMatrix/Maps/TutorialMap.TutorialMap to /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.001953s)
+[2021.05.19-16.27.18:207][898]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2021.05.19-16.27.18:208][898]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.19-16.27.18:208][898]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.19-16.27.18:208][898]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.19-16.27.18:208][898]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.19-16.27.18:208][898]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.19-16.27.18:208][898]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.19-16.27.18:208][898]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.19-16.27.18:208][898]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.19-16.27.18:209][898]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.19-16.27.18:209][898]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.19-16.27.18:211][898]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.19-16.27.18:211][898]LogAudioMixer: Display: 1: FrontRight
+[2021.05.19-16.27.18:225][898]LogAudioMixer: Display: Using Audio Device 扬声器 (Realtek(R) Audio)
+[2021.05.19-16.27.18:225][898]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.19-16.27.18:226][898]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.19-16.27.18:226][898]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.19-16.27.18:226][898]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.19-16.27.18:236][898]LogInit: FAudioDevice initialized.
+[2021.05.19-16.27.18:245][898]LogLoad: Game class is 'GM_Tutorial_C'
+[2021.05.19-16.27.18:246][898]LogWorld: Bringing World /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 0) at 2021.05.20-00.27.18
+[2021.05.19-16.27.18:246][898]LogWorld: Bringing up level for play took: 0.000268
+[2021.05.19-16.27.18:246][898]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2021.05.19-16.27.18:248][898]PIE: 登陆的服务器
+[2021.05.19-16.27.18:249][898]PIE: PIE总开始时间：0.099秒。
+[2021.05.19-16.27.22:225][368]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.19-16.27.22:225][368]LogWorld: BeginTearingDown for /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2021.05.19-16.27.22:225][368]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.19-16.27.22:225][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.19-16.27.22:232][368]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.19-16.27.22:235][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.19-16.27.22:278][368]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.19-16.27.22:279][368]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BA3CC52200), frame # 15368
+[2021.05.19-16.27.22:279][368]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BA8D0FCE00), frame # 15368
+[2021.05.19-16.27.22:281][368]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2021.05.19-16.27.22:298][369]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2021.05.19-16.27.24:100][577]LogTemp: Repeating last play command: 选中的视口
+[2021.05.19-16.27.24:107][577]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.19-16.27.24:107][577]PIE: New page: PIE会话：TutorialMap（2021年5月20日 上午8:27:24）
+[2021.05.19-16.27.24:134][577]LogPlayLevel: Creating play world package: /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2021.05.19-16.27.24:136][577]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001140s)
+[2021.05.19-16.27.24:136][577]LogAIModule: Creating AISystem for world TutorialMap
+[2021.05.19-16.27.24:136][577]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BA5AB3CE00), frame # 15577
+[2021.05.19-16.27.24:136][577]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BA84178180), frame # 15577
+[2021.05.19-16.27.24:136][577]LogPlayLevel: PIE: World Init took: (0.000846s)
+[2021.05.19-16.27.24:136][577]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteMatrix/Maps/TutorialMap.TutorialMap to /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.002091s)
+[2021.05.19-16.27.24:157][577]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2021.05.19-16.27.24:157][577]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.19-16.27.24:157][577]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.19-16.27.24:157][577]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.19-16.27.24:157][577]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.19-16.27.24:157][577]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.19-16.27.24:157][577]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.19-16.27.24:157][577]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.19-16.27.24:157][577]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.19-16.27.24:158][577]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.19-16.27.24:158][577]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.19-16.27.24:160][577]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.19-16.27.24:160][577]LogAudioMixer: Display: 1: FrontRight
+[2021.05.19-16.27.24:173][577]LogAudioMixer: Display: Using Audio Device 扬声器 (Realtek(R) Audio)
+[2021.05.19-16.27.24:173][577]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.19-16.27.24:173][577]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.19-16.27.24:173][577]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.19-16.27.24:174][577]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.19-16.27.24:184][577]LogInit: FAudioDevice initialized.
+[2021.05.19-16.27.24:190][577]LogLoad: Game class is 'GM_Tutorial_C'
+[2021.05.19-16.27.24:192][577]LogWorld: Bringing World /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 0) at 2021.05.20-00.27.24
+[2021.05.19-16.27.24:192][577]LogWorld: Bringing up level for play took: 0.000266
+[2021.05.19-16.27.24:192][577]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2021.05.19-16.27.24:194][577]PIE: 登陆的服务器
+[2021.05.19-16.27.24:195][577]PIE: PIE总开始时间：0.088秒。
+[2021.05.19-16.27.42:615][780]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.19-16.27.42:615][780]LogWorld: BeginTearingDown for /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2021.05.19-16.27.42:615][780]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.19-16.27.42:615][780]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.19-16.27.42:620][780]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.19-16.27.42:623][780]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.19-16.27.42:641][780]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.19-16.27.42:655][780]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BA84178180), frame # 17780
+[2021.05.19-16.27.42:655][780]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BA5AB3CE00), frame # 17780
+[2021.05.19-16.27.42:657][780]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2021.05.19-16.27.42:676][781]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2021.05.19-16.27.50:275][372]LogTemp: Repeating last play command: 选中的视口
+[2021.05.19-16.27.50:282][372]BlueprintLog: New page: 运行前自动重新编译
+[2021.05.19-16.27.50:283][372]LogPlayLevel: [PlayLevel] Compiling BP_Tunnel before play...
+[2021.05.19-16.27.50:324][372]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2021.05.19-16.27.50:325][372]LogPlayLevel: PlayLevel: Blueprint regeneration took 42 ms (1 blueprints)
+[2021.05.19-16.27.50:325][372]PIE: New page: PIE会话：TutorialMap（2021年5月20日 上午8:27:50）
+[2021.05.19-16.27.50:326][372]LogPlayLevel: Creating play world package: /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2021.05.19-16.27.50:327][372]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001121s)
+[2021.05.19-16.27.50:327][372]LogAIModule: Creating AISystem for world TutorialMap
+[2021.05.19-16.27.50:327][372]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BA8ED7DA00), frame # 18372
+[2021.05.19-16.27.50:327][372]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BA5CBF96C0), frame # 18372
+[2021.05.19-16.27.50:327][372]LogPlayLevel: PIE: World Init took: (0.000728s)
+[2021.05.19-16.27.50:327][372]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteMatrix/Maps/TutorialMap.TutorialMap to /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.001921s)
+[2021.05.19-16.27.50:346][372]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2021.05.19-16.27.50:347][372]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.19-16.27.50:347][372]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.19-16.27.50:347][372]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.19-16.27.50:347][372]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.19-16.27.50:347][372]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.19-16.27.50:347][372]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.19-16.27.50:347][372]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.19-16.27.50:347][372]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.19-16.27.50:347][372]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.19-16.27.50:347][372]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.19-16.27.50:349][372]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.19-16.27.50:349][372]LogAudioMixer: Display: 1: FrontRight
+[2021.05.19-16.27.50:363][372]LogAudioMixer: Display: Using Audio Device 扬声器 (Realtek(R) Audio)
+[2021.05.19-16.27.50:363][372]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.19-16.27.50:363][372]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.19-16.27.50:363][372]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.19-16.27.50:363][372]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.19-16.27.50:373][372]LogInit: FAudioDevice initialized.
+[2021.05.19-16.27.50:381][372]LogLoad: Game class is 'GM_Tutorial_C'
+[2021.05.19-16.27.50:382][372]LogWorld: Bringing World /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 0) at 2021.05.20-00.27.50
+[2021.05.19-16.27.50:382][372]LogWorld: Bringing up level for play took: 0.000265
+[2021.05.19-16.27.50:382][372]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2021.05.19-16.27.50:384][372]PIE: 登陆的服务器
+[2021.05.19-16.27.50:385][372]PIE: PIE总开始时间：0.103秒。
+[2021.05.19-16.27.52:394][594]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.19-16.27.52:394][594]LogWorld: BeginTearingDown for /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2021.05.19-16.27.52:394][594]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.19-16.27.52:395][594]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.19-16.27.52:400][594]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.19-16.27.52:403][594]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.19-16.27.52:422][594]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.19-16.27.52:436][594]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BA5CBF96C0), frame # 18594
+[2021.05.19-16.27.52:436][594]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BA8ED7DA00), frame # 18594
+[2021.05.19-16.27.52:438][594]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2021.05.19-16.27.52:474][596]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2021.05.19-16.27.53:318][695]LogTemp: Repeating last play command: 选中的视口
+[2021.05.19-16.27.53:325][695]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.19-16.27.53:325][695]PIE: New page: PIE会话：TutorialMap（2021年5月20日 上午8:27:53）
+[2021.05.19-16.27.53:353][695]LogPlayLevel: Creating play world package: /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2021.05.19-16.27.53:355][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001129s)
+[2021.05.19-16.27.53:355][695]LogAIModule: Creating AISystem for world TutorialMap
+[2021.05.19-16.27.53:355][695]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BA91357200), frame # 18695
+[2021.05.19-16.27.53:355][695]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BA56EC5A80), frame # 18695
+[2021.05.19-16.27.53:355][695]LogPlayLevel: PIE: World Init took: (0.000766s)
+[2021.05.19-16.27.53:355][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteMatrix/Maps/TutorialMap.TutorialMap to /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.001991s)
+[2021.05.19-16.27.53:375][695]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2021.05.19-16.27.53:375][695]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.19-16.27.53:375][695]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.19-16.27.53:375][695]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.19-16.27.53:375][695]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.19-16.27.53:375][695]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.19-16.27.53:375][695]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.19-16.27.53:375][695]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.19-16.27.53:375][695]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.19-16.27.53:376][695]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.19-16.27.53:376][695]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.19-16.27.53:378][695]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.19-16.27.53:378][695]LogAudioMixer: Display: 1: FrontRight
+[2021.05.19-16.27.53:392][695]LogAudioMixer: Display: Using Audio Device 扬声器 (Realtek(R) Audio)
+[2021.05.19-16.27.53:392][695]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.19-16.27.53:392][695]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.19-16.27.53:392][695]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.19-16.27.53:392][695]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.19-16.27.53:402][695]LogInit: FAudioDevice initialized.
+[2021.05.19-16.27.53:410][695]LogLoad: Game class is 'GM_Tutorial_C'
+[2021.05.19-16.27.53:411][695]LogWorld: Bringing World /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 0) at 2021.05.20-00.27.53
+[2021.05.19-16.27.53:411][695]LogWorld: Bringing up level for play took: 0.000287
+[2021.05.19-16.27.53:411][695]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.05.19-16.27.53:413][695]PIE: 登陆的服务器
+[2021.05.19-16.27.53:414][695]PIE: PIE总开始时间：0.09秒。
+[2021.05.19-16.28.18:655][701]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.19-16.28.18:655][701]LogWorld: BeginTearingDown for /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2021.05.19-16.28.18:655][701]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.19-16.28.18:655][701]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.19-16.28.18:661][701]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.19-16.28.18:665][701]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.19-16.28.18:682][701]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.19-16.28.18:696][701]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BA56EC5A80), frame # 21701
+[2021.05.19-16.28.18:696][701]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BA91357200), frame # 21701
+[2021.05.19-16.28.18:698][701]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2021.05.19-16.28.18:740][704]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.05.19-16.28.26:973][808]LogTemp: Repeating last play command: 选中的视口
+[2021.05.19-16.28.26:980][808]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.19-16.28.26:980][808]PIE: New page: PIE会话：TutorialMap（2021年5月20日 上午8:28:26）
+[2021.05.19-16.28.27:004][808]LogPlayLevel: Creating play world package: /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2021.05.19-16.28.27:005][808]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001126s)
+[2021.05.19-16.28.27:006][808]LogAIModule: Creating AISystem for world TutorialMap
+[2021.05.19-16.28.27:006][808]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BA8ED7D800), frame # 21808
+[2021.05.19-16.28.27:006][808]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BA84178900), frame # 21808
+[2021.05.19-16.28.27:006][808]LogPlayLevel: PIE: World Init took: (0.000748s)
+[2021.05.19-16.28.27:006][808]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteMatrix/Maps/TutorialMap.TutorialMap to /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.001968s)
+[2021.05.19-16.28.27:026][808]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2021.05.19-16.28.27:026][808]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.19-16.28.27:026][808]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.19-16.28.27:026][808]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.19-16.28.27:026][808]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.19-16.28.27:026][808]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.19-16.28.27:026][808]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.19-16.28.27:026][808]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.19-16.28.27:026][808]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.19-16.28.27:027][808]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.19-16.28.27:027][808]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.19-16.28.27:029][808]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.19-16.28.27:029][808]LogAudioMixer: Display: 1: FrontRight
+[2021.05.19-16.28.27:042][808]LogAudioMixer: Display: Using Audio Device 扬声器 (Realtek(R) Audio)
+[2021.05.19-16.28.27:042][808]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.19-16.28.27:042][808]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.19-16.28.27:042][808]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.19-16.28.27:043][808]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.19-16.28.27:054][808]LogInit: FAudioDevice initialized.
+[2021.05.19-16.28.27:058][808]LogLoad: Game class is 'GM_Tutorial_C'
+[2021.05.19-16.28.27:059][808]LogWorld: Bringing World /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 0) at 2021.05.20-00.28.27
+[2021.05.19-16.28.27:059][808]LogWorld: Bringing up level for play took: 0.000258
+[2021.05.19-16.28.27:059][808]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2021.05.19-16.28.27:062][808]PIE: 登陆的服务器
+[2021.05.19-16.28.27:062][808]PIE: PIE总开始时间：0.083秒。
+[2021.05.19-16.28.29:715][108]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.19-16.28.29:715][108]LogWorld: BeginTearingDown for /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2021.05.19-16.28.29:715][108]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.19-16.28.29:715][108]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.19-16.28.29:723][108]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.19-16.28.29:726][108]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.19-16.28.29:744][108]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.19-16.28.29:758][108]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BA84178900), frame # 22108
+[2021.05.19-16.28.29:758][108]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BA8ED7D800), frame # 22108
+[2021.05.19-16.28.29:760][108]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2021.05.19-16.28.29:777][109]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2021.05.19-16.29.01:646][482]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteMatrix/Blueprints/BP_Tunnel" FILE="D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset" SILENT=true
+[2021.05.19-16.29.01:658][482]LogSavePackage: Moving 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/BP_Tunnel2018494C4314358464E48E9A1CDEEBF3.tmp' to 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset'
+[2021.05.19-16.29.01:669][482]AssetCheck: New page: 资产保存：BP_Tunnel
+[2021.05.19-16.29.01:669][482]LogContentValidation: Display: 正在验证Blueprint /Game/InfiniteMatrix/Blueprints/BP_Tunnel.BP_Tunnel
+[2021.05.19-16.29.24:173][901]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/InfiniteMatrix/Blueprints/BP_TunnelSpawner.BP_TunnelSpawner
+[2021.05.19-16.30.50:338][208]BlueprintLog: New page: 编译BP_TunnelSpawner
+[2021.05.19-16.30.50:377][208]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2021.05.19-16.31.02:474][524]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteMatrix/Blueprints/BP_TunnelSpawner" FILE="D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_TunnelSpawner.uasset" SILENT=true
+[2021.05.19-16.31.02:482][524]LogSavePackage: Moving 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/BP_TunnelSpawnerE53ED3E94205DB72164C4F91747096BD.tmp' to 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_TunnelSpawner.uasset'
+[2021.05.19-16.31.02:495][524]AssetCheck: New page: 资产保存：BP_TunnelSpawner
+[2021.05.19-16.31.02:495][524]LogContentValidation: Display: 正在验证Blueprint /Game/InfiniteMatrix/Blueprints/BP_TunnelSpawner.BP_TunnelSpawner
+[2021.05.19-16.31.18:308][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteMatrix/Blueprints/BP_TunnelSpawner" FILE="D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_TunnelSpawner.uasset" SILENT=true
+[2021.05.19-16.31.18:316][ 52]LogSavePackage: Moving 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/BP_TunnelSpawner1844D1B9487323286692828125E06711.tmp' to 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_TunnelSpawner.uasset'
+[2021.05.19-16.31.18:328][ 52]AssetCheck: New page: 资产保存：BP_TunnelSpawner
+[2021.05.19-16.31.18:328][ 52]LogContentValidation: Display: 正在验证Blueprint /Game/InfiniteMatrix/Blueprints/BP_TunnelSpawner.BP_TunnelSpawner
+[2021.05.19-16.31.25:954][679]BlueprintLog: New page: 编译BP_TunnelSpawner
+[2021.05.19-16.31.25:960][679]LogBlueprint: Warning: [Compiler BP_TunnelSpawner] 无法找到调用自  Random Wall  的函数'RandomWall’
+[2021.05.19-16.31.25:995][679]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2021.05.19-16.32.02:633][ 60]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteMatrix/Blueprints/BP_Tunnel" FILE="D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset" SILENT=true
+[2021.05.19-16.32.02:646][ 60]LogSavePackage: Moving 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/BP_TunnelA65BD2B94C729DF3556D6F96250CABA8.tmp' to 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset'
+[2021.05.19-16.32.02:657][ 60]AssetCheck: New page: 资产保存：BP_Tunnel
+[2021.05.19-16.32.02:657][ 60]LogContentValidation: Display: 正在验证Blueprint /Game/InfiniteMatrix/Blueprints/BP_Tunnel.BP_Tunnel
+[2021.05.19-16.32.03:503][145]BlueprintLog: New page: 编译BP_TunnelSpawner
+[2021.05.19-16.32.03:509][145]LogBlueprint: Warning: [Compiler BP_TunnelSpawner] 无法找到调用自  Random Wall  的函数'RandomWall’
+[2021.05.19-16.32.03:543][145]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2021.05.19-16.32.43:994][757]BlueprintLog: New page: 编译BP_TunnelSpawner
+[2021.05.19-16.32.43:998][757]LogBlueprint: Warning: [Compiler BP_TunnelSpawner] 无法找到调用自  Random Wall  的函数'RandomWall’
+[2021.05.19-16.32.44:033][757]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2021.05.19-16.32.45:945][935]BlueprintLog: New page: 编译BP_Tunnel
+[2021.05.19-16.32.45:984][935]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2021.05.19-16.32.47:181][ 35]BlueprintLog: New page: 编译BP_TunnelSpawner
+[2021.05.19-16.32.47:220][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2021.05.19-16.33.54:573][813]BlueprintLog: New page: 编译BP_Tunnel
+[2021.05.19-16.33.54:614][813]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2021.05.19-16.33.55:872][912]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:1).
+[2021.05.19-16.33.57:763][ 82]BlueprintLog: New page: 编译BP_TunnelSpawner
+[2021.05.19-16.33.57:802][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2021.05.19-16.34.12:149][327]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteMatrix/Blueprints/BP_Tunnel" FILE="D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset" SILENT=true
+[2021.05.19-16.34.12:161][327]LogSavePackage: Moving 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/BP_TunnelC6B7C9354F66801FEF1301B71FF7A152.tmp' to 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset'
+[2021.05.19-16.34.12:173][327]AssetCheck: New page: 资产保存：BP_Tunnel
+[2021.05.19-16.34.12:173][327]LogContentValidation: Display: 正在验证Blueprint /Game/InfiniteMatrix/Blueprints/BP_Tunnel.BP_Tunnel
+[2021.05.19-16.34.12:700][388]BlueprintLog: New page: 编译BP_Tunnel
+[2021.05.19-16.34.12:741][388]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2021.05.19-16.34.16:864][541]LogSlate: Window 'BP_TunnelSpawner' being destroyed
+[2021.05.19-16.34.16:868][541]LogSlate: Window 'BP_TunnelSpawner' being destroyed
+[2021.05.19-16.34.16:875][541]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.05.19-16.34.16:875][541]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.19-16.34.16:917][541]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.05.19-16.34.16:917][541]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.05.19-16.34.16:917][541]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.19-16.34.18:289][685]LogTemp: Repeating last play command: 选中的视口
+[2021.05.19-16.34.18:296][685]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.19-16.34.18:296][685]PIE: New page: PIE会话：TutorialMap（2021年5月20日 上午8:34:18）
+[2021.05.19-16.34.18:335][685]LogPlayLevel: Creating play world package: /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2021.05.19-16.34.18:336][685]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001169s)
+[2021.05.19-16.34.18:337][685]LogAIModule: Creating AISystem for world TutorialMap
+[2021.05.19-16.34.18:337][685]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BA5CC48E00), frame # 47685
+[2021.05.19-16.34.18:337][685]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BA3D6C3C40), frame # 47685
+[2021.05.19-16.34.18:337][685]LogPlayLevel: PIE: World Init took: (0.000902s)
+[2021.05.19-16.34.18:337][685]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteMatrix/Maps/TutorialMap.TutorialMap to /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.002167s)
+[2021.05.19-16.34.18:375][685]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2021.05.19-16.34.18:376][685]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.19-16.34.18:376][685]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.19-16.34.18:376][685]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.19-16.34.18:376][685]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.19-16.34.18:376][685]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.19-16.34.18:376][685]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.19-16.34.18:376][685]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.19-16.34.18:376][685]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.19-16.34.18:376][685]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.19-16.34.18:376][685]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.19-16.34.18:378][685]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.19-16.34.18:378][685]LogAudioMixer: Display: 1: FrontRight
+[2021.05.19-16.34.18:393][685]LogAudioMixer: Display: Using Audio Device 扬声器 (Realtek(R) Audio)
+[2021.05.19-16.34.18:393][685]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.19-16.34.18:393][685]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.19-16.34.18:393][685]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.19-16.34.18:393][685]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.19-16.34.18:404][685]LogInit: FAudioDevice initialized.
+[2021.05.19-16.34.18:412][685]LogLoad: Game class is 'GM_Tutorial_C'
+[2021.05.19-16.34.18:413][685]LogWorld: Bringing World /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 0) at 2021.05.20-00.34.18
+[2021.05.19-16.34.18:413][685]LogWorld: Bringing up level for play took: 0.000272
+[2021.05.19-16.34.18:413][685]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.05.19-16.34.18:416][685]PIE: 登陆的服务器
+[2021.05.19-16.34.18:416][685]PIE: PIE总开始时间：0.12秒。
+[2021.05.19-16.34.23:565][297]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.19-16.34.23:565][297]LogWorld: BeginTearingDown for /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2021.05.19-16.34.23:565][297]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.19-16.34.23:566][297]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.19-16.34.23:569][297]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.19-16.34.23:573][297]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.19-16.34.23:606][297]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.19-16.34.23:607][297]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BA3D6C3C40), frame # 48297
+[2021.05.19-16.34.23:607][297]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BA5CC48E00), frame # 48297
+[2021.05.19-16.34.23:621][297]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2021.05.19-16.34.23:639][298]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2021.05.19-16.34.25:759][540]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2021.05.19-16.34.25:770][540]LogSavePackage: Moving 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/TutorialMapA85CBA3B448A8C961435B3A42180810D.tmp' to 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Maps/TutorialMap.umap'
+[2021.05.19-16.34.25:792][540]AssetCheck: New page: 资产保存：多个资产
+[2021.05.19-16.34.25:792][540]LogContentValidation: Display: 正在验证World /Game/InfiniteMatrix/Maps/TutorialMap.TutorialMap
+[2021.05.19-16.34.25:792][540]LogContentValidation: Display: 正在验证MapBuildDataRegistry /Game/InfiniteMatrix/Maps/TutorialMap.TutorialMap_BuiltData
+[2021.05.19-16.34.27:761][732]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/InfiniteMatrix/Blueprints/BP_Tunnel.BP_Tunnel
+[2021.05.19-16.35.15:269][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteMatrix/Blueprints/BP_Tunnel" FILE="D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset" SILENT=true
+[2021.05.19-16.35.15:280][643]LogSavePackage: Moving 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/BP_Tunnel7F7D4BAA47062FBCF89FCBBB212325CD.tmp' to 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset'
+[2021.05.19-16.35.15:290][643]AssetCheck: New page: 资产保存：BP_Tunnel
+[2021.05.19-16.35.15:290][643]LogContentValidation: Display: 正在验证Blueprint /Game/InfiniteMatrix/Blueprints/BP_Tunnel.BP_Tunnel
+[2021.05.19-16.35.20:482][ 80]BlueprintLog: New page: 编译BP_Tunnel
+[2021.05.19-16.35.20:513][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2021.05.19-16.35.25:135][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteMatrix/Blueprints/BP_Tunnel" FILE="D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset" SILENT=true
+[2021.05.19-16.35.25:146][310]LogSavePackage: Moving 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/BP_Tunnel84901EAA488D34F235075493FE9C2A91.tmp' to 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset'
+[2021.05.19-16.35.25:157][310]AssetCheck: New page: 资产保存：BP_Tunnel
+[2021.05.19-16.35.25:157][310]LogContentValidation: Display: 正在验证Blueprint /Game/InfiniteMatrix/Blueprints/BP_Tunnel.BP_Tunnel
+[2021.05.19-16.35.26:281][433]LogTemp: Repeating last play command: 选中的视口
+[2021.05.19-16.35.26:289][433]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.19-16.35.26:289][433]PIE: New page: PIE会话：TutorialMap（2021年5月20日 上午8:35:26）
+[2021.05.19-16.35.26:315][433]LogPlayLevel: Creating play world package: /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2021.05.19-16.35.26:316][433]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001128s)
+[2021.05.19-16.35.26:317][433]LogAIModule: Creating AISystem for world TutorialMap
+[2021.05.19-16.35.26:317][433]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BA9DE81E00), frame # 52433
+[2021.05.19-16.35.26:317][433]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BA46B09F80), frame # 52433
+[2021.05.19-16.35.26:317][433]LogPlayLevel: PIE: World Init took: (0.000797s)
+[2021.05.19-16.35.26:317][433]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteMatrix/Maps/TutorialMap.TutorialMap to /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.002017s)
+[2021.05.19-16.35.26:334][433]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2021.05.19-16.35.26:335][433]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.19-16.35.26:335][433]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.19-16.35.26:335][433]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.19-16.35.26:335][433]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.19-16.35.26:335][433]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.19-16.35.26:335][433]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.19-16.35.26:335][433]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.19-16.35.26:335][433]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.19-16.35.26:335][433]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.19-16.35.26:335][433]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.19-16.35.26:337][433]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.19-16.35.26:337][433]LogAudioMixer: Display: 1: FrontRight
+[2021.05.19-16.35.26:351][433]LogAudioMixer: Display: Using Audio Device 扬声器 (Realtek(R) Audio)
+[2021.05.19-16.35.26:351][433]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.19-16.35.26:351][433]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.19-16.35.26:351][433]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.19-16.35.26:352][433]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.19-16.35.26:362][433]LogInit: FAudioDevice initialized.
+[2021.05.19-16.35.26:367][433]LogLoad: Game class is 'GM_Tutorial_C'
+[2021.05.19-16.35.26:368][433]LogWorld: Bringing World /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 0) at 2021.05.20-00.35.26
+[2021.05.19-16.35.26:368][433]LogWorld: Bringing up level for play took: 0.000272
+[2021.05.19-16.35.26:368][433]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.05.19-16.35.26:370][433]PIE: 登陆的服务器
+[2021.05.19-16.35.26:371][433]PIE: PIE总开始时间：0.082秒。
+[2021.05.19-16.35.30:006][859]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.19-16.35.30:006][859]LogWorld: BeginTearingDown for /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2021.05.19-16.35.30:006][859]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.19-16.35.30:006][859]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.19-16.35.30:011][859]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.19-16.35.30:013][859]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.19-16.35.30:040][859]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.19-16.35.30:041][859]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BA46B09F80), frame # 52859
+[2021.05.19-16.35.30:041][859]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BA9DE81E00), frame # 52859
+[2021.05.19-16.35.30:042][859]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2021.05.19-16.35.30:086][862]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2021.05.19-16.35.59:635][809]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteMatrix/Blueprints/BP_Tunnel" FILE="D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset" SILENT=true
+[2021.05.19-16.35.59:648][809]LogSavePackage: Moving 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/BP_Tunnel48090AD54B146463ACC22880CE7059F3.tmp' to 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset'
+[2021.05.19-16.35.59:658][809]AssetCheck: New page: 资产保存：BP_Tunnel
+[2021.05.19-16.35.59:658][809]LogContentValidation: Display: 正在验证Blueprint /Game/InfiniteMatrix/Blueprints/BP_Tunnel.BP_Tunnel
+[2021.05.19-16.36.08:052][563]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteMatrix/Blueprints/BP_Tunnel" FILE="D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset" SILENT=true
+[2021.05.19-16.36.08:064][563]LogSavePackage: Moving 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/BP_Tunnel08077C574D696F8F12D6B899B378E26F.tmp' to 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset'
+[2021.05.19-16.36.08:074][563]AssetCheck: New page: 资产保存：BP_Tunnel
+[2021.05.19-16.36.08:074][563]LogContentValidation: Display: 正在验证Blueprint /Game/InfiniteMatrix/Blueprints/BP_Tunnel.BP_Tunnel
+[2021.05.19-16.36.08:733][631]BlueprintLog: New page: 编译BP_Tunnel
+[2021.05.19-16.36.08:762][631]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2021.05.19-16.36.12:333][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteMatrix/Blueprints/BP_Tunnel" FILE="D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset" SILENT=true
+[2021.05.19-16.36.12:345][892]LogSavePackage: Moving 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/BP_Tunnel669E47F945991B94A4AB0CBEFDC3233B.tmp' to 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset'
+[2021.05.19-16.36.12:354][892]AssetCheck: New page: 资产保存：BP_Tunnel
+[2021.05.19-16.36.12:354][892]LogContentValidation: Display: 正在验证Blueprint /Game/InfiniteMatrix/Blueprints/BP_Tunnel.BP_Tunnel
+[2021.05.19-16.36.13:390][  2]LogTemp: Repeating last play command: 选中的视口
+[2021.05.19-16.36.13:397][  2]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.19-16.36.13:397][  2]PIE: New page: PIE会话：TutorialMap（2021年5月20日 上午8:36:13）
+[2021.05.19-16.36.13:425][  2]LogPlayLevel: Creating play world package: /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2021.05.19-16.36.13:426][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001100s)
+[2021.05.19-16.36.13:427][  2]LogAIModule: Creating AISystem for world TutorialMap
+[2021.05.19-16.36.13:427][  2]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BA9138A800), frame # 56002
+[2021.05.19-16.36.13:427][  2]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BA56402FC0), frame # 56002
+[2021.05.19-16.36.13:427][  2]LogPlayLevel: PIE: World Init took: (0.000773s)
+[2021.05.19-16.36.13:427][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteMatrix/Maps/TutorialMap.TutorialMap to /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.001993s)
+[2021.05.19-16.36.13:444][  2]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2021.05.19-16.36.13:445][  2]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.19-16.36.13:445][  2]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.19-16.36.13:445][  2]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.19-16.36.13:445][  2]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.19-16.36.13:445][  2]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.19-16.36.13:445][  2]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.19-16.36.13:445][  2]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.19-16.36.13:445][  2]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.19-16.36.13:445][  2]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.19-16.36.13:445][  2]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.19-16.36.13:447][  2]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.19-16.36.13:447][  2]LogAudioMixer: Display: 1: FrontRight
+[2021.05.19-16.36.13:460][  2]LogAudioMixer: Display: Using Audio Device 扬声器 (Realtek(R) Audio)
+[2021.05.19-16.36.13:460][  2]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.19-16.36.13:460][  2]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.19-16.36.13:460][  2]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.19-16.36.13:462][  2]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.19-16.36.13:471][  2]LogInit: FAudioDevice initialized.
+[2021.05.19-16.36.13:477][  2]LogLoad: Game class is 'GM_Tutorial_C'
+[2021.05.19-16.36.13:478][  2]LogWorld: Bringing World /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 0) at 2021.05.20-00.36.13
+[2021.05.19-16.36.13:478][  2]LogWorld: Bringing up level for play took: 0.000266
+[2021.05.19-16.36.13:478][  2]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2021.05.19-16.36.13:480][  2]PIE: 登陆的服务器
+[2021.05.19-16.36.13:481][  2]PIE: PIE总开始时间：0.085秒。
+[2021.05.19-16.36.15:585][238]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.19-16.36.15:585][238]LogWorld: BeginTearingDown for /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2021.05.19-16.36.15:585][238]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.19-16.36.15:586][238]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.19-16.36.15:591][238]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.19-16.36.15:593][238]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.19-16.36.15:621][238]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.19-16.36.15:622][238]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BA56402FC0), frame # 56238
+[2021.05.19-16.36.15:622][238]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BA9138A800), frame # 56238
+[2021.05.19-16.36.15:623][238]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2021.05.19-16.36.15:658][240]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2021.05.19-16.36.52:468][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteMatrix/Blueprints/BP_Tunnel" FILE="D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset" SILENT=true
+[2021.05.19-16.36.52:480][811]LogSavePackage: Moving 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/BP_Tunnel79DF7DB54F2D0B481AEA2A975C073498.tmp' to 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset'
+[2021.05.19-16.36.52:490][811]AssetCheck: New page: 资产保存：BP_Tunnel
+[2021.05.19-16.36.52:490][811]LogContentValidation: Display: 正在验证Blueprint /Game/InfiniteMatrix/Blueprints/BP_Tunnel.BP_Tunnel
+[2021.05.19-16.36.59:569][241]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteMatrix/Blueprints/BP_Tunnel" FILE="D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset" SILENT=true
+[2021.05.19-16.36.59:581][241]LogSavePackage: Moving 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/BP_Tunnel3F52679D42F6748881C1689EBF0B72AD.tmp' to 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset'
+[2021.05.19-16.36.59:592][241]AssetCheck: New page: 资产保存：BP_Tunnel
+[2021.05.19-16.36.59:592][241]LogContentValidation: Display: 正在验证Blueprint /Game/InfiniteMatrix/Blueprints/BP_Tunnel.BP_Tunnel
+[2021.05.19-16.37.00:535][346]BlueprintLog: New page: 编译BP_Tunnel
+[2021.05.19-16.37.00:564][346]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2021.05.19-16.37.09:082][  1]LogTemp: Repeating last play command: 选中的视口
+[2021.05.19-16.37.09:089][  1]BlueprintLog: New page: 运行前自动重新编译
+[2021.05.19-16.37.09:090][  1]LogPlayLevel: [PlayLevel] Compiling BP_Tunnel before play...
+[2021.05.19-16.37.09:125][  1]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2021.05.19-16.37.09:126][  1]LogPlayLevel: PlayLevel: Blueprint regeneration took 36 ms (1 blueprints)
+[2021.05.19-16.37.09:126][  1]PIE: New page: PIE会话：TutorialMap（2021年5月20日 上午8:37:09）
+[2021.05.19-16.37.09:165][  1]LogPlayLevel: Creating play world package: /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2021.05.19-16.37.09:166][  1]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001104s)
+[2021.05.19-16.37.09:167][  1]LogAIModule: Creating AISystem for world TutorialMap
+[2021.05.19-16.37.09:167][  1]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001BA5BD6BA00), frame # 60001
+[2021.05.19-16.37.09:167][  1]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001BA55612E80), frame # 60001
+[2021.05.19-16.37.09:167][  1]LogPlayLevel: PIE: World Init took: (0.000804s)
+[2021.05.19-16.37.09:167][  1]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/InfiniteMatrix/Maps/TutorialMap.TutorialMap to /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.001993s)
+[2021.05.19-16.37.09:183][  1]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2021.05.19-16.37.09:183][  1]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.19-16.37.09:183][  1]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.19-16.37.09:183][  1]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.19-16.37.09:183][  1]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.19-16.37.09:183][  1]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.19-16.37.09:183][  1]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.19-16.37.09:183][  1]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.19-16.37.09:183][  1]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.19-16.37.09:184][  1]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.19-16.37.09:184][  1]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.19-16.37.09:186][  1]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.19-16.37.09:186][  1]LogAudioMixer: Display: 1: FrontRight
+[2021.05.19-16.37.09:199][  1]LogAudioMixer: Display: Using Audio Device 扬声器 (Realtek(R) Audio)
+[2021.05.19-16.37.09:199][  1]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.19-16.37.09:199][  1]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.19-16.37.09:199][  1]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.19-16.37.09:199][  1]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.19-16.37.09:210][  1]LogInit: FAudioDevice initialized.
+[2021.05.19-16.37.09:218][  1]LogLoad: Game class is 'GM_Tutorial_C'
+[2021.05.19-16.37.09:219][  1]LogWorld: Bringing World /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 0) at 2021.05.20-00.37.09
+[2021.05.19-16.37.09:219][  1]LogWorld: Bringing up level for play took: 0.000266
+[2021.05.19-16.37.09:219][  1]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2021.05.19-16.37.09:221][  1]PIE: 登陆的服务器
+[2021.05.19-16.37.09:222][  1]PIE: PIE总开始时间：0.133秒。
+[2021.05.19-16.37.29:286][405]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.19-16.37.29:286][405]LogWorld: BeginTearingDown for /Game/InfiniteMatrix/Maps/UEDPIE_0_TutorialMap
+[2021.05.19-16.37.29:286][405]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.19-16.37.29:286][405]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.19-16.37.29:292][405]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.19-16.37.29:294][405]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.19-16.37.29:309][405]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.19-16.37.29:323][405]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BA55612E80), frame # 62405
+[2021.05.19-16.37.29:323][405]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BA5BD6BA00), frame # 62405
+[2021.05.19-16.37.29:324][405]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2021.05.19-16.37.29:366][408]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2021.05.19-16.37.30:346][519]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2021.05.19-16.37.30:355][519]LogSavePackage: Moving 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/TutorialMap1F2BD0B941BBF3CE4802E893496DF5DC.tmp' to 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Maps/TutorialMap.umap'
+[2021.05.19-16.37.30:376][519]AssetCheck: New page: 资产保存：多个资产
+[2021.05.19-16.37.30:376][519]LogContentValidation: Display: 正在验证World /Game/InfiniteMatrix/Maps/TutorialMap.TutorialMap
+[2021.05.19-16.37.30:376][519]LogContentValidation: Display: 正在验证MapBuildDataRegistry /Game/InfiniteMatrix/Maps/TutorialMap.TutorialMap_BuiltData
+[2021.05.19-16.37.36:669][ 31]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteMatrix/Blueprints/BP_Tunnel" FILE="D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset" SILENT=true
+[2021.05.19-16.37.36:682][ 31]LogSavePackage: Moving 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/BP_Tunnel6A273B30484E2E67FD02D19B208A269B.tmp' to 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset'
+[2021.05.19-16.37.36:691][ 31]AssetCheck: New page: 资产保存：BP_Tunnel
+[2021.05.19-16.37.36:691][ 31]LogContentValidation: Display: 正在验证Blueprint /Game/InfiniteMatrix/Blueprints/BP_Tunnel.BP_Tunnel
+[2021.05.19-16.37.37:039][ 73]LogSlate: Window 'BP_Tunnel' being destroyed
+[2021.05.19-16.37.37:044][ 73]LogSlate: Window 'BP_Tunnel' being destroyed
+[2021.05.19-16.37.37:075][ 73]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.05.19-16.37.37:075][ 73]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.19-16.37.37:774][140]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2021.05.19-16.37.40:647][140]LogSlate: Window '保存内容' being destroyed
+[2021.05.19-16.37.41:563][222]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/InfiniteMatrix/Blueprints/BP_Tunnel.BP_Tunnel
+[2021.05.19-16.37.48:369][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteMatrix/Blueprints/BP_Tunnel" FILE="D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset" SILENT=true
+[2021.05.19-16.37.48:381][850]LogSavePackage: Moving 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/BP_TunnelF1D0188C425EFE756C626AAAED72B6AE.tmp' to 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset'
+[2021.05.19-16.37.48:391][850]AssetCheck: New page: 资产保存：BP_Tunnel
+[2021.05.19-16.37.48:391][850]LogContentValidation: Display: 正在验证Blueprint /Game/InfiniteMatrix/Blueprints/BP_Tunnel.BP_Tunnel
+[2021.05.19-16.37.49:066][931]LogSlate: Window 'BP_Tunnel' being destroyed
+[2021.05.19-16.37.49:070][931]LogSlate: Window 'BP_Tunnel' being destroyed
+[2021.05.19-16.37.49:106][931]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.05.19-16.37.49:106][931]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.19-16.37.49:690][989]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2021.05.19-16.37.50:829][989]LogSlate: Window '保存内容' being destroyed
+[2021.05.19-16.37.51:710][ 78]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/InfiniteMatrix/Blueprints/BP_Tunnel.BP_Tunnel
+[2021.05.19-16.37.56:636][428]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteMatrix/Blueprints/BP_Tunnel" FILE="D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset" SILENT=true
+[2021.05.19-16.37.56:648][428]LogSavePackage: Moving 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/BP_TunnelEBFBEE9B4652227291C36F94EC6ED636.tmp' to 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_Tunnel.uasset'
+[2021.05.19-16.37.56:659][428]AssetCheck: New page: 资产保存：BP_Tunnel
+[2021.05.19-16.37.56:659][428]LogContentValidation: Display: 正在验证Blueprint /Game/InfiniteMatrix/Blueprints/BP_Tunnel.BP_Tunnel
+[2021.05.19-16.37.56:966][465]LogSlate: Window 'BP_Tunnel' being destroyed
+[2021.05.19-16.37.56:971][465]LogSlate: Window 'BP_Tunnel' being destroyed
+[2021.05.19-16.37.56:996][465]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.05.19-16.37.56:996][465]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.19-16.37.57:224][478]LogEditorViewport: Clicking Background
+[2021.05.19-16.37.57:734][537]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2021.05.19-16.37.58:635][537]LogSlate: Window '保存内容' being destroyed
+[2021.05.19-16.37.58:663][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InfiniteMatrix/Blueprints/BP_TunnelSpawner" FILE="D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_TunnelSpawner.uasset" SILENT=true
+[2021.05.19-16.37.58:671][537]LogSavePackage: Moving 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Saved/BP_TunnelSpawnerE140DE5F43CC7EEE1B3B019CB3F5F9D9.tmp' to 'D:/Tencent/BananaProject/InfiniteMatrixStarter/Content/InfiniteMatrix/Blueprints/BP_TunnelSpawner.uasset'
+[2021.05.19-16.37.58:709][537]LogSlate: Window 'InfiniteMatrix - 虚幻编辑器' being destroyed
+[2021.05.19-16.37.58:710][537]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (微软拼音).
+[2021.05.19-16.37.58:788][537]AssetCheck: New page: 资产保存：BP_TunnelSpawner
+[2021.05.19-16.37.58:788][537]LogContentValidation: Display: 正在验证Blueprint /Game/InfiniteMatrix/Blueprints/BP_TunnelSpawner.BP_TunnelSpawner
+[2021.05.19-16.37.58:788][538]Cmd: QUIT_EDITOR
+[2021.05.19-16.37.58:788][538]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2021.05.19-16.37.58:793][538]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2021.05.19-16.37.59:738][538]LogExit: Preparing to exit.
+[2021.05.19-16.38.00:100][538]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.05.19-16.38.00:102][538]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2021.05.19-16.38.00:119][538]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2021.05.19-16.38.00:122][538]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.05.19-16.38.00:122][538]LogExit: Editor shut down
+[2021.05.19-16.38.00:122][538]LogExit: Transaction tracking system shut down
+[2021.05.19-16.38.00:275][538]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (000001BA1E50C5C0), frame # 64538
+[2021.05.19-16.38.00:275][538]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BA1E4611C0), frame # 64538
+[2021.05.19-16.38.00:276][538]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BA1E4ADE00), frame # 64538
+[2021.05.19-16.38.00:279][538]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001BA1A005800), frame # 64538
+[2021.05.19-16.38.00:279][538]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001BA1EBE7D80), frame # 64538
+[2021.05.19-16.38.00:325][538]LogExit: Object subsystem successfully closed.
+[2021.05.19-16.38.00:337][538]LogShaderCompilers: Display: Shaders left to compile 0
+[2021.05.19-16.38.00:356][538]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (796)
+[2021.05.19-16.38.00:356][538]LogModuleManager: Shutting down and abandoning module Voice (794)
+[2021.05.19-16.38.00:356][538]LogModuleManager: Shutting down and abandoning module BlueprintGraph (792)
+[2021.05.19-16.38.00:356][538]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (790)
+[2021.05.19-16.38.00:356][538]LogModuleManager: Shutting down and abandoning module SceneOutliner (788)
+[2021.05.19-16.38.00:356][538]LogModuleManager: Shutting down and abandoning module AddContentDialog (786)
+[2021.05.19-16.38.00:356][538]LogModuleManager: Shutting down and abandoning module WidgetCarousel (785)
+[2021.05.19-16.38.00:356][538]LogModuleManager: Shutting down and abandoning module EditorWidgets (782)
+[2021.05.19-16.38.00:356][538]LogModuleManager: Shutting down and abandoning module CollectionManager (780)
+[2021.05.19-16.38.00:356][538]LogModuleManager: Shutting down and abandoning module StatsViewer (778)
+[2021.05.19-16.38.00:356][538]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (776)
+[2021.05.19-16.38.00:356][538]LogModuleManager: Shutting down and abandoning module FoliageEdit (774)
+[2021.05.19-16.38.00:356][538]LogModuleManager: Shutting down and abandoning module LandscapeEditor (772)
+[2021.05.19-16.38.00:356][538]LogModuleManager: Shutting down and abandoning module MeshPaintMode (770)
+[2021.05.19-16.38.00:356][538]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (768)
+[2021.05.19-16.38.00:356][538]LogModuleManager: Shutting down and abandoning module ActorPickerMode (766)
+[2021.05.19-16.38.00:356][538]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (764)
+[2021.05.19-16.38.00:356][538]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (762)
+[2021.05.19-16.38.00:356][538]LogModuleManager: Shutting down and abandoning module AutomationWorker (760)
+[2021.05.19-16.38.00:356][538]LogModuleManager: Shutting down and abandoning module SteamVREditor (758)
+[2021.05.19-16.38.00:356][538]LogModuleManager: Shutting down and abandoning module OculusMR (756)
+[2021.05.19-16.38.00:356][538]LogModuleManager: Shutting down and abandoning module GooglePADEditor (754)
+[2021.05.19-16.38.00:356][538]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (752)
+[2021.05.19-16.38.00:356][538]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (750)
+[2021.05.19-16.38.00:356][538]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (748)
+[2021.05.19-16.38.00:356][538]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (746)
+[2021.05.19-16.38.00:356][538]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (744)
+[2021.05.19-16.38.00:356][538]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (742)
+[2021.05.19-16.38.00:356][538]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (740)
+[2021.05.19-16.38.00:356][538]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (738)
+[2021.05.19-16.38.00:356][538]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (736)
+[2021.05.19-16.38.00:357][538]LogModuleManager: Shutting down and abandoning module WebMMedia (734)
+[2021.05.19-16.38.00:357][538]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (732)
+[2021.05.19-16.38.00:357][538]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (730)
+[2021.05.19-16.38.00:357][538]LogModuleManager: Shutting down and abandoning module SequenceRecorder (729)
+[2021.05.19-16.38.00:357][538]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (726)
+[2021.05.19-16.38.00:357][538]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (724)
+[2021.05.19-16.38.00:357][538]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (722)
+[2021.05.19-16.38.00:357][538]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (720)
+[2021.05.19-16.38.00:357][538]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (718)
+[2021.05.19-16.38.00:357][538]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (716)
+[2021.05.19-16.38.00:357][538]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (714)
+[2021.05.19-16.38.00:357][538]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (712)
+[2021.05.19-16.38.00:357][538]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (710)
+[2021.05.19-16.38.00:357][538]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (708)
+[2021.05.19-16.38.00:357][538]LogModuleManager: Shutting down and abandoning module PlanarCut (706)
+[2021.05.19-16.38.00:357][538]LogModuleManager: Shutting down and abandoning module CharacterAI (704)
+[2021.05.19-16.38.00:357][538]LogModuleManager: Shutting down and abandoning module TextureAlignMode (702)
+[2021.05.19-16.38.00:357][538]LogModuleManager: Shutting down and abandoning module BspMode (700)
+[2021.05.19-16.38.00:357][538]LogModuleManager: Shutting down and abandoning module PlacementMode (699)
+[2021.05.19-16.38.00:357][538]LogModuleManager: Shutting down and abandoning module GeometryMode (696)
+[2021.05.19-16.38.00:357][538]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (694)
+[2021.05.19-16.38.00:357][538]LogModuleManager: Shutting down and abandoning module SmartSnapping (692)
+[2021.05.19-16.38.00:357][538]LogModuleManager: Shutting down and abandoning module SessionServices (690)
+[2021.05.19-16.38.00:357][538]LogModuleManager: Shutting down and abandoning module MeshPaint (688)
+[2021.05.19-16.38.00:357][538]LogModuleManager: Shutting down and abandoning module ViewportSnapping (686)
+[2021.05.19-16.38.00:357][538]LogModuleManager: Shutting down and abandoning module ViewportInteraction (684)
+[2021.05.19-16.38.00:357][538]LogModuleManager: Shutting down and abandoning module ClothPainter (682)
+[2021.05.19-16.38.00:357][538]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (681)
+[2021.05.19-16.38.00:357][538]LogModuleManager: Shutting down and abandoning module LogVisualizer (678)
+[2021.05.19-16.38.00:357][538]LogModuleManager: Shutting down and abandoning module IntroTutorials (676)
+[2021.05.19-16.38.00:357][538]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (675)
+[2021.05.19-16.38.00:357][538]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (672)
+[2021.05.19-16.38.00:357][538]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (670)
+[2021.05.19-16.38.00:357][538]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (668)
+[2021.05.19-16.38.00:357][538]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (667)
+[2021.05.19-16.38.00:773][538]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (664)
+[2021.05.19-16.38.00:773][538]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (662)
+[2021.05.19-16.38.00:773][538]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (660)
+[2021.05.19-16.38.00:773][538]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (658)
+[2021.05.19-16.38.00:773][538]LogModuleManager: Shutting down and abandoning module TraceInsights (656)
+[2021.05.19-16.38.00:773][538]LogModuleManager: Shutting down and abandoning module TraceServices (655)
+[2021.05.19-16.38.00:773][538]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (652)
+[2021.05.19-16.38.00:773][538]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (650)
+[2021.05.19-16.38.00:773][538]LogModuleManager: Shutting down and abandoning module InputBindingEditor (648)
+[2021.05.19-16.38.00:773][538]LogModuleManager: Shutting down and abandoning module MergeActors (646)
+[2021.05.19-16.38.00:773][538]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (644)
+[2021.05.19-16.38.00:773][538]LogModuleManager: Shutting down and abandoning module LocalizationService (643)
+[2021.05.19-16.38.00:773][538]LogModuleManager: Shutting down and abandoning module HardwareTargeting (640)
+[2021.05.19-16.38.00:773][538]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (638)
+[2021.05.19-16.38.00:773][538]LogModuleManager: Shutting down and abandoning module UndoHistory (636)
+[2021.05.19-16.38.00:773][538]LogModuleManager: Shutting down and abandoning module XmlParser (634)
+[2021.05.19-16.38.00:773][538]LogModuleManager: Shutting down and abandoning module Blutility (632)
+[2021.05.19-16.38.00:773][538]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (630)
+[2021.05.19-16.38.00:773][538]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (629)
+[2021.05.19-16.38.00:773][538]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (626)
+[2021.05.19-16.38.00:773][538]LogModuleManager: Shutting down and abandoning module SettingsEditor (624)
+[2021.05.19-16.38.00:773][538]LogModuleManager: Shutting down and abandoning module ProjectLauncher (622)
+[2021.05.19-16.38.00:773][538]LogModuleManager: Shutting down and abandoning module SessionFrontend (620)
+[2021.05.19-16.38.00:773][538]LogModuleManager: Shutting down and abandoning module ProfilerClient (618)
+[2021.05.19-16.38.00:773][538]LogModuleManager: Shutting down and abandoning module DeviceManager (616)
+[2021.05.19-16.38.00:773][538]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (615)
+[2021.05.19-16.38.00:806][538]LogModuleManager: Shutting down and abandoning module AutomationController (612)
+[2021.05.19-16.38.00:806][538]LogModuleManager: Shutting down and abandoning module AutomationWindow (610)
+[2021.05.19-16.38.00:806][538]LogModuleManager: Shutting down and abandoning module Layers (608)
+[2021.05.19-16.38.00:806][538]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (606)
+[2021.05.19-16.38.00:806][538]LogModuleManager: Shutting down and abandoning module DetailCustomizations (604)
+[2021.05.19-16.38.00:806][538]LogModuleManager: Shutting down and abandoning module PackagesDialog (602)
+[2021.05.19-16.38.00:806][538]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (600)
+[2021.05.19-16.38.00:806][538]LogModuleManager: Shutting down and abandoning module Persona (598)
+[2021.05.19-16.38.00:806][538]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (597)
+[2021.05.19-16.38.00:806][538]LogModuleManager: Shutting down and abandoning module AnimGraph (595)
+[2021.05.19-16.38.00:806][538]LogModuleManager: Shutting down and abandoning module Kismet (592)
+[2021.05.19-16.38.00:810][538]LogModuleManager: Shutting down and abandoning module KismetWidgets (591)
+[2021.05.19-16.38.00:811][538]LogModuleManager: Shutting down and abandoning module GraphEditor (588)
+[2021.05.19-16.38.00:811][538]LogModuleManager: Shutting down and abandoning module StructViewer (586)
+[2021.05.19-16.38.00:811][538]LogModuleManager: Shutting down and abandoning module ClassViewer (584)
+[2021.05.19-16.38.00:811][538]LogModuleManager: Shutting down and abandoning module Toolbox (582)
+[2021.05.19-16.38.00:811][538]LogModuleManager: Shutting down and abandoning module ModuleUI (580)
+[2021.05.19-16.38.00:811][538]LogModuleManager: Shutting down and abandoning module OutputLog (578)
+[2021.05.19-16.38.00:811][538]LogModuleManager: Shutting down and abandoning module GammaUI (576)
+[2021.05.19-16.38.00:811][538]LogModuleManager: Shutting down and abandoning module Documentation (574)
+[2021.05.19-16.38.00:811][538]LogModuleManager: Shutting down and abandoning module LiveCoding (572)
+[2021.05.19-16.38.00:811][538]LogModuleManager: Shutting down and abandoning module LevelSequence (570)
+[2021.05.19-16.38.00:811][538]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (568)
+[2021.05.19-16.38.00:811][538]LogModuleManager: Shutting down and abandoning module MovieScene (566)
+[2021.05.19-16.38.00:811][538]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (564)
+[2021.05.19-16.38.00:811][538]LogModuleManager: Shutting down and abandoning module LauncherPlatform (562)
+[2021.05.19-16.38.00:811][538]LogModuleManager: Shutting down and abandoning module AnalyticsET (560)
+[2021.05.19-16.38.00:811][538]LogModuleManager: Shutting down and abandoning module PortalServices (558)
+[2021.05.19-16.38.00:811][538]LogModuleManager: Shutting down and abandoning module PortalRpc (556)
+[2021.05.19-16.38.00:811][538]LogModuleManager: Shutting down and abandoning module MessagingRpc (554)
+[2021.05.19-16.38.00:811][538]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (552)
+[2021.05.19-16.38.00:811][538]LogModuleManager: Shutting down and abandoning module AudioMixerCore (551)
+[2021.05.19-16.38.00:811][538]LogModuleManager: Shutting down and abandoning module AIModule (548)
+[2021.05.19-16.38.00:811][538]LogModuleManager: Shutting down and abandoning module GameplayDebugger (547)
+[2021.05.19-16.38.00:811][538]LogModuleManager: Shutting down and abandoning module AITestSuite (545)
+[2021.05.19-16.38.00:811][538]LogModuleManager: Shutting down and abandoning module NavigationSystem (543)
+[2021.05.19-16.38.00:811][538]LogModuleManager: Shutting down and abandoning module ProfilerService (540)
+[2021.05.19-16.38.00:995][538]LogModuleManager: Shutting down and abandoning module TaskGraph (538)
+[2021.05.19-16.38.00:995][538]LogModuleManager: Shutting down and abandoning module ScreenshotTools (536)
+[2021.05.19-16.38.00:995][538]LogModuleManager: Shutting down and abandoning module SynthesisEditor (534)
+[2021.05.19-16.38.00:995][538]LogModuleManager: Shutting down and abandoning module Synthesis (532)
+[2021.05.19-16.38.00:995][538]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (530)
+[2021.05.19-16.38.00:995][538]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (528)
+[2021.05.19-16.38.00:995][538]LogModuleManager: Shutting down and abandoning module OculusEditor (526)
+[2021.05.19-16.38.00:995][538]LogModuleManager: Shutting down and abandoning module OculusInput (524)
+[2021.05.19-16.38.00:995][538]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (522)
+[2021.05.19-16.38.00:995][538]LogModuleManager: Shutting down and abandoning module GooglePAD (520)
+[2021.05.19-16.38.00:995][538]LogModuleManager: Shutting down and abandoning module EditableMesh (518)
+[2021.05.19-16.38.00:995][538]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (516)
+[2021.05.19-16.38.00:995][538]LogModuleManager: Shutting down and abandoning module CableComponent (514)
+[2021.05.19-16.38.00:995][538]LogModuleManager: Shutting down and abandoning module AudioCapture (512)
+[2021.05.19-16.38.00:995][538]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (511)
+[2021.05.19-16.38.00:995][538]LogModuleManager: Shutting down and abandoning module AssetTags (508)
+[2021.05.19-16.38.00:995][538]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (506)
+[2021.05.19-16.38.00:995][538]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (504)
+[2021.05.19-16.38.00:995][538]LogModuleManager: Shutting down and abandoning module AppleImageUtils (502)
+[2021.05.19-16.38.00:995][538]LogModuleManager: Shutting down and abandoning module AndroidPermission (500)
+[2021.05.19-16.38.00:996][538]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (498)
+[2021.05.19-16.38.00:996][538]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (496)
+[2021.05.19-16.38.00:996][538]LogModuleManager: Shutting down and abandoning module TemplateSequence (494)
+[2021.05.19-16.38.00:996][538]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (492)
+[2021.05.19-16.38.00:996][538]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (490)
+[2021.05.19-16.38.00:996][538]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (488)
+[2021.05.19-16.38.00:996][538]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (486)
+[2021.05.19-16.38.00:996][538]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (485)
+[2021.05.19-16.38.00:999][538]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (482)
+[2021.05.19-16.38.00:999][538]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (480)
+[2021.05.19-16.38.00:999][538]LogModuleManager: Shutting down and abandoning module MediaCompositing (478)
+[2021.05.19-16.38.00:999][538]LogModuleManager: Shutting down and abandoning module ImgMedia (476)
+[2021.05.19-16.38.00:999][538]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (474)
+[2021.05.19-16.38.00:999][538]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (472)
+[2021.05.19-16.38.00:999][538]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (470)
+[2021.05.19-16.38.00:999][538]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (468)
+[2021.05.19-16.38.00:999][538]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (466)
+[2021.05.19-16.38.00:999][538]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (464)
+[2021.05.19-16.38.00:999][538]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (462)
+[2021.05.19-16.38.00:999][538]LogModuleManager: Shutting down and abandoning module MeshConversion (460)
+[2021.05.19-16.38.00:999][538]LogModuleManager: Shutting down and abandoning module DynamicMesh (458)
+[2021.05.19-16.38.00:999][538]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (456)
+[2021.05.19-16.38.00:999][538]LogModuleManager: Shutting down and abandoning module GeometricObjects (454)
+[2021.05.19-16.38.00:999][538]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (452)
+[2021.05.19-16.38.00:999][538]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (451)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (448)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (446)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (444)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (442)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module ChaosNiagara (440)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module FractureEditor (438)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (436)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module ChaosCloth (434)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module BackChannel (432)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (430)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module AutomationUtils (428)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module AlembicImporter (426)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module AlembicLibrary (425)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module GeometryCache (424)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (423)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (418)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (416)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (414)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module PluginBrowser (412)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (410)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (408)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (406)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module CurveEditorTools (404)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (402)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module CryptoKeys (400)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (398)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (396)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module UObjectPlugin (394)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (392)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (390)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (388)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (386)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module GitSourceControl (384)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module SourceControl (383)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (380)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (378)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (376)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (374)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (372)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (370)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (368)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module Paper2DEditor (366)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module SoundFields (364)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module SignificanceManager (362)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (360)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (358)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (354)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module ActorSequence (352)
+[2021.05.19-16.38.01:000][538]LogModuleManager: Shutting down and abandoning module UdpMessaging (350)
+[2021.05.19-16.38.01:102][538]LogModuleManager: Shutting down and abandoning module TcpMessaging (348)
+[2021.05.19-16.38.01:202][538]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (346)
+[2021.05.19-16.38.01:202][538]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (344)
+[2021.05.19-16.38.01:202][538]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (342)
+[2021.05.19-16.38.01:202][538]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (340)
+[2021.05.19-16.38.01:202][538]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (338)
+[2021.05.19-16.38.01:202][538]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2021.05.19-16.38.01:202][538]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (336)
+[2021.05.19-16.38.01:202][538]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (334)
+[2021.05.19-16.38.01:202][538]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (332)
+[2021.05.19-16.38.01:202][538]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (330)
+[2021.05.19-16.38.01:202][538]LogModuleManager: Shutting down and abandoning module MagicLeapController (328)
+[2021.05.19-16.38.01:202][538]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2021.05.19-16.38.01:202][538]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (326)
+[2021.05.19-16.38.01:202][538]LogModuleManager: Shutting down and abandoning module MagicLeapAR (324)
+[2021.05.19-16.38.01:202][538]LogModuleManager: Shutting down and abandoning module AugmentedReality (323)
+[2021.05.19-16.38.01:202][538]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (320)
+[2021.05.19-16.38.01:202][538]LogModuleManager: Shutting down and abandoning module Niagara (318)
+[2021.05.19-16.38.01:202][538]LogModuleManager: Shutting down and abandoning module SignalProcessing (317)
+[2021.05.19-16.38.01:202][538]LogModuleManager: Shutting down and abandoning module NiagaraEditor (315)
+[2021.05.19-16.38.01:202][538]LogModuleManager: Shutting down and abandoning module NiagaraCore (312)
+[2021.05.19-16.38.01:202][538]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (310)
+[2021.05.19-16.38.01:202][538]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (308)
+[2021.05.19-16.38.01:202][538]LogModuleManager: Shutting down and abandoning module FacialAnimation (306)
+[2021.05.19-16.38.01:202][538]LogModuleManager: Shutting down and abandoning module DataValidation (304)
+[2021.05.19-16.38.01:202][538]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (302)
+[2021.05.19-16.38.01:202][538]LogModuleManager: Shutting down and abandoning module LevelEditor (301)
+[2021.05.19-16.38.01:203][538]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (300)
+[2021.05.19-16.38.01:203][538]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (298)
+[2021.05.19-16.38.01:203][538]LogModuleManager: Shutting down and abandoning module MainFrame (296)
+[2021.05.19-16.38.01:203][538]LogModuleManager: Shutting down and abandoning module HotReload (295)
+[2021.05.19-16.38.01:203][538]LogModuleManager: Shutting down and abandoning module ToolMenus (291)
+[2021.05.19-16.38.01:203][538]LogModuleManager: Shutting down and abandoning module TreeMap (289)
+[2021.05.19-16.38.01:203][538]LogModuleManager: Shutting down and abandoning module AnimationSharing (286)
+[2021.05.19-16.38.01:203][538]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (284)
+[2021.05.19-16.38.01:203][538]LogModuleManager: Shutting down and abandoning module Paper2D (282)
+[2021.05.19-16.38.01:203][538]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (280)
+[2021.05.19-16.38.01:204][538]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (278)
+[2021.05.19-16.38.01:204][538]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (276)
+[2021.05.19-16.38.01:204][538]LogModuleManager: Shutting down and abandoning module PacketHandler (274)
+[2021.05.19-16.38.01:204][538]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (272)
+[2021.05.19-16.38.01:204][538]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (270)
+[2021.05.19-16.38.01:204][538]LogModuleManager: Shutting down and abandoning module MediaAssets (268)
+[2021.05.19-16.38.01:204][538]LogModuleManager: Shutting down and abandoning module Overlay (266)
+[2021.05.19-16.38.01:204][538]LogModuleManager: Shutting down and abandoning module OverlayEditor (265)
+[2021.05.19-16.38.01:204][538]LogModuleManager: Shutting down and abandoning module VREditor (262)
+[2021.05.19-16.38.01:204][538]LogModuleManager: Shutting down and abandoning module StringTableEditor (260)
+[2021.05.19-16.38.01:204][538]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (258)
+[2021.05.19-16.38.01:204][538]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (256)
+[2021.05.19-16.38.01:204][538]LogModuleManager: Shutting down and abandoning module FunctionalTesting (254)
+[2021.05.19-16.38.01:204][538]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (252)
+[2021.05.19-16.38.01:204][538]LogModuleManager: Shutting down and abandoning module UMG (250)
+[2021.05.19-16.38.01:204][538]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
+[2021.05.19-16.38.01:204][538]LogModuleManager: Shutting down and abandoning module MessageLog (247)
+[2021.05.19-16.38.01:204][538]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
+[2021.05.19-16.38.01:204][538]LogModuleManager: Shutting down and abandoning module ContentBrowser (244)
+[2021.05.19-16.38.01:205][538]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (243)
+[2021.05.19-16.38.01:205][538]LogModuleManager: Shutting down and abandoning module SlateReflector (236)
+[2021.05.19-16.38.01:205][538]LogModuleManager: Shutting down and abandoning module Slate (234)
+[2021.05.19-16.38.01:205][538]LogModuleManager: Shutting down and abandoning module SlateCore (232)
+[2021.05.19-16.38.01:205][538]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (230)
+[2021.05.19-16.38.01:205][538]LogModuleManager: Shutting down and abandoning module UnrealEd (228)
+[2021.05.19-16.38.01:205][538]LogModuleManager: Shutting down and abandoning module MRMesh (226)
+[2021.05.19-16.38.01:205][538]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (224)
+[2021.05.19-16.38.01:205][538]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (222)
+[2021.05.19-16.38.01:205][538]LogModuleManager: Shutting down and abandoning module XAudio2 (220)
+[2021.05.19-16.38.01:205][538]LogModuleManager: Shutting down and abandoning module Networking (218)
+[2021.05.19-16.38.01:205][538]LogModuleManager: Shutting down and abandoning module Core (216)
+[2021.05.19-16.38.01:205][538]LogModuleManager: Shutting down and abandoning module MovieSceneTools (214)
+[2021.05.19-16.38.01:205][538]LogModuleManager: Shutting down and abandoning module CurveEditor (213)
+[2021.05.19-16.38.01:205][538]LogModuleManager: Shutting down and abandoning module Sequencer (211)
+[2021.05.19-16.38.01:205][538]LogModuleManager: Shutting down and abandoning module EditorStyle (210)
+[2021.05.19-16.38.01:206][538]LogModuleManager: Shutting down and abandoning module KismetCompiler (206)
+[2021.05.19-16.38.01:206][538]LogModuleManager: Shutting down and abandoning module MeshBuilder (204)
+[2021.05.19-16.38.01:206][538]LogModuleManager: Shutting down and abandoning module MeshUtilities (202)
+[2021.05.19-16.38.01:206][538]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (201)
+[2021.05.19-16.38.01:206][538]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (200)
+[2021.05.19-16.38.01:206][538]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (199)
+[2021.05.19-16.38.01:206][538]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (197)
+[2021.05.19-16.38.01:206][538]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (195)
+[2021.05.19-16.38.01:206][538]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (193)
+[2021.05.19-16.38.01:206][538]LogModuleManager: Shutting down and abandoning module MaterialBaking (189)
+[2021.05.19-16.38.01:206][538]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (184)
+[2021.05.19-16.38.01:206][538]LogModuleManager: Shutting down and abandoning module DerivedDataCache (182)
+[2021.05.19-16.38.01:206][538]LogModuleManager: Shutting down and abandoning module XGEController (180)
+[2021.05.19-16.38.01:206][538]LogModuleManager: Shutting down and abandoning module TargetPlatform (178)
+[2021.05.19-16.38.01:206][538]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2021.05.19-16.38.01:206][538]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (175)
+[2021.05.19-16.38.01:206][538]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (173)
+[2021.05.19-16.38.01:206][538]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (171)
+[2021.05.19-16.38.01:206][538]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (169)
+[2021.05.19-16.38.01:206][538]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (167)
+[2021.05.19-16.38.01:206][538]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (165)
+[2021.05.19-16.38.01:206][538]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (163)
+[2021.05.19-16.38.01:206][538]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (161)
+[2021.05.19-16.38.01:206][538]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (159)
+[2021.05.19-16.38.01:206][538]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
+[2021.05.19-16.38.01:206][538]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (155)
+[2021.05.19-16.38.01:206][538]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (153)
+[2021.05.19-16.38.01:206][538]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (151)
+[2021.05.19-16.38.01:206][538]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (149)
+[2021.05.19-16.38.01:206][538]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (147)
+[2021.05.19-16.38.01:206][538]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (145)
+[2021.05.19-16.38.01:206][538]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (143)
+[2021.05.19-16.38.01:206][538]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (141)
+[2021.05.19-16.38.01:206][538]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
+[2021.05.19-16.38.01:207][538]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
+[2021.05.19-16.38.01:207][538]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
+[2021.05.19-16.38.01:207][538]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
+[2021.05.19-16.38.01:207][538]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
+[2021.05.19-16.38.01:207][538]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2021.05.19-16.38.01:207][538]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
+[2021.05.19-16.38.01:207][538]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2021.05.19-16.38.01:207][538]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2021.05.19-16.38.01:207][538]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2021.05.19-16.38.01:207][538]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2021.05.19-16.38.01:208][538]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
+[2021.05.19-16.38.01:210][538]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
+[2021.05.19-16.38.01:210][538]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2021.05.19-16.38.01:210][538]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2021.05.19-16.38.01:210][538]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2021.05.19-16.38.01:210][538]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2021.05.19-16.38.01:210][538]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2021.05.19-16.38.01:210][538]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2021.05.19-16.38.01:210][538]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2021.05.19-16.38.01:210][538]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2021.05.19-16.38.01:210][538]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2021.05.19-16.38.01:210][538]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2021.05.19-16.38.01:210][538]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2021.05.19-16.38.01:210][538]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2021.05.19-16.38.01:210][538]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2021.05.19-16.38.01:210][538]LogHMD: Freeing OpenVRDLLHandle.
+[2021.05.19-16.38.01:210][538]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2021.05.19-16.38.01:210][538]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2021.05.19-16.38.01:210][538]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2021.05.19-16.38.01:210][538]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2021.05.19-16.38.01:210][538]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2021.05.19-16.38.01:211][538]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2021.05.19-16.38.01:211][538]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2021.05.19-16.38.01:222][538]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2021.05.19-16.38.01:222][538]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2021.05.19-16.38.01:222][538]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDB8F33B7-4AE6-92CC-557B-DCAA20B7AF06%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=cab3624647f532ef10412c8cd00506c9%7Cbbde90542c34484b924d2c6d812766be%7Cfdf0f36e-9393-446b-a808-0dc8f40b9953&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2021.05.19-16.38.01:242][538]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2021.05.19-16.38.01:243][538]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2021.05.19-16.38.01:244][538]LogModuleManager: Shutting down and abandoning module Media (61)
+[2021.05.19-16.38.01:245][538]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2021.05.19-16.38.01:245][538]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2021.05.19-16.38.01:245][538]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2021.05.19-16.38.01:245][538]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2021.05.19-16.38.01:245][538]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2021.05.19-16.38.01:245][538]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2021.05.19-16.38.01:245][538]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2021.05.19-16.38.01:245][538]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2021.05.19-16.38.01:245][538]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2021.05.19-16.38.01:245][538]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2021.05.19-16.38.01:245][538]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2021.05.19-16.38.01:245][538]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2021.05.19-16.38.01:245][538]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2021.05.19-16.38.01:245][538]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2021.05.19-16.38.01:245][538]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2021.05.19-16.38.01:245][538]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2021.05.19-16.38.01:245][538]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2021.05.19-16.38.01:246][538]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2021.05.19-16.38.01:246][538]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2021.05.19-16.38.01:246][538]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2021.05.19-16.38.01:246][538]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2021.05.19-16.38.01:246][538]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2021.05.19-16.38.01:246][538]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2021.05.19-16.38.01:246][538]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2021.05.19-16.38.01:246][538]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2021.05.19-16.38.01:246][538]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2021.05.19-16.38.01:246][538]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2021.05.19-16.38.01:246][538]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2021.05.19-16.38.01:246][538]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2021.05.19-16.38.01:246][538]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2021.05.19-16.38.01:248][538]LogD3D11RHI: Shutdown
+[2021.05.19-16.38.01:248][538]LogD3D11RHI: CleanupD3DDevice
+[2021.05.19-16.38.01:257][538]LogExit: Exiting.
+[2021.05.19-16.38.01:300][538]Log file closed, 05/20/21 00:38:01
